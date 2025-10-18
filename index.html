@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background image="backimg.webp" >
+    BACKG
+    <div class="container">
+        <h1 class="heading">Pathfinding Visualizer</h1>
+        <div class="button-container">
+            <button id="set-start">Set Start</button>
+            <button id="set-end">Set End</button>
+            <button id="randomize">Randomize Obstacles</button>
+            <button id="clear">Clear Grid</button>
+            <button id="start">Start Algorithm</button>
+            <select id="algorithm">
+                <option value="a-star">A*</option>
+                <option value="dijkstra">Dijkstra</option>
+                <option value="bfs">BFS</option>
+                <option value="dfs">DFS</option>
+            </select>
+        </div>
+        <div id="grid-wrapper">
+            <div id="grid"></div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
